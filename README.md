@@ -1,5 +1,5 @@
 # Ethereum-Price-Prediction
-Predict Ethereum price based on blockchain information. Compare the Deep Learning approach with traditional ML algorithms.
+Predict Ethereum price based on blockchain information and compare the Deep Learning approach with traditional ML algorithms.
 
 ### 1. Project Overview
 
