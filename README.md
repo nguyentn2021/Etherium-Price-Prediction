@@ -5,7 +5,7 @@
 ### 2. Dataset
 
 ### 3. Evaluation
-- Ethereum price prediction with RNN LSTM: we have a very good result with LSTM models:
+- We have a very good result with the LSTM model in Ethereum price prediction
   - R2 Score:  0.98
   - Mean Absolute Error:  101.82
   - Mean Squared Error:  21087.27
