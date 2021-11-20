@@ -1,4 +1,4 @@
-# Ethereum-Price-Prediction
+# Ethereum-Price-Prediction - Capstone Project
 Predict Ethereum price based on blockchain information and compare the Deep Learning approach with regular ML algorithms.
 
 ### 1. Project Overview
@@ -14,6 +14,7 @@ Predict Ethereum price based on blockchain information and compare the Deep Lear
  
 - We also have top 3 best regular machine learning models in predicting the Ethereum price:
   - Lasso Regression with the accuracy is 0.98
+  ![](images/Lasso.PNG)
   - Ridge Regression with the accuracy is 0.97
   - Linear Regression with the accuracy is 0.95
   
