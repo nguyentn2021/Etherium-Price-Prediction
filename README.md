@@ -21,7 +21,7 @@
     - Mean Squared Error: 17201.57
     - Mean Absolute Percentage Error (MDAPE): 4.24 %
     
-  ![](images/Lasso.PNG)
+  
   
   - Ridge Regression with the accuracy is 0.97
     - Mean Absolute Error: 146.38
