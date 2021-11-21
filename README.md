@@ -11,6 +11,7 @@
   - R2 Score:  0.97
   - Mean Absolute Error:  146.03
   - Mean Squared Error:  43666.10
+  - Mean Absolute Percentage Error (MDAPE): 6.89 %
  
  ![](images/LSTM.PNG)
  
