@@ -24,21 +24,6 @@
 
   ![](images/ElasticNet.PNG)
 
-  - Lasso Regression with the accuracy is 0.98
-    - Mean Absolute Error: 86.27
-    - Mean Squared Error: 17201.57
-    - Mean Absolute Percentage Error (MDAPE): 4.24 %
-    
-  ![image](https://user-images.githubusercontent.com/82604634/142772152-d7b4216e-f283-49b3-a8d1-f00039af1aa6.png)
-
-  
-  - Ridge Regression with the accuracy is 0.97
-    - Mean Absolute Error: 146.38
-    - Mean Squared Error: 43899.57
-    - Mean Absolute Percentage Error (MDAPE): 4.24 %
-
-  ![](images/Ridge.PNG)
-  
   - Linear Regression with the accuracy is 0.95
     - Mean Absolute Error: 196.17
     - Mean Squared Error: 74505.19
