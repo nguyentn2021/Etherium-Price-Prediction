@@ -1,5 +1,4 @@
-# Ethereum-Price-Prediction 
-Capstone Project at Lighthouse Labs - Data Science
+# Ethereum-Price-Prediction - Capstone Project at Lighthouse Labs - Data Science
 Predict Ethereum price based on blockchain information and compare the Deep Learning approach with regular ML algorithms.
 
 ### 1. Project Overview
