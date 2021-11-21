@@ -1,12 +1,12 @@
 # Ethereum-Price-Prediction based on blockchain information
 ### Capstone Project at Lighthouse Labs - Data Science
 
-### Project Overview
+### 1. Project Overview
 
 
-### Dataset
+### 2. Dataset
 
-### Evaluation
+### 3. Evaluation
 - We have a very good result with the LSTM model in Ethereum price prediction
   - R2 Score:  0.94
   - Mean Absolute Error:  215.07
@@ -36,4 +36,4 @@
 
   ![](images/Linear.PNG)
   
-### Next Steps
+### 4. Next Steps
