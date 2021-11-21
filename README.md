@@ -12,7 +12,7 @@ Predict Ethereum price based on blockchain information and compare the Deep Lear
   - Mean Absolute Error:  215.07
   - Mean Squared Error:  92685.31
  
-
+ ![](images/LSTM.PNG)
  
 - We also have top 3 best regular machine learning models in predicting the Ethereum price:
   - Lasso Regression with the accuracy is 0.98
