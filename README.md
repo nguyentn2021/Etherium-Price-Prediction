@@ -16,6 +16,14 @@
  ![](images/LSTM.PNG)
  
 - We also have top 3 best classic machine learning models in predicting the Ethereum price:
+
+  - ElasticNet Regression with the accuracy is 0.97
+    - Mean Absolute Error: 142.19
+    - Mean Squared Error: 45553.12
+    - Mean Absolute Percentage Error (MDAPE): 7.56 %
+
+  ![](images/ElasticNet.PNG)
+
   - Lasso Regression with the accuracy is 0.98
     - Mean Absolute Error: 86.27
     - Mean Squared Error: 17201.57
