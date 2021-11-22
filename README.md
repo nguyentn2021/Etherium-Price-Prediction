@@ -8,12 +8,12 @@
 
 ### 3. Evaluation
 - We have a very good result with the LSTM model in Ethereum price prediction
-  - R2 Score:  0.97
-  - Mean Absolute Error:  146.03
-  - Mean Squared Error:  43666.10
-  - Mean Absolute Percentage Error (MDAPE): 6.89 %
+  - R2 Score:  0.974
+  - Mean Absolute Error:  136.216
+  - Mean Squared Error:  41526.171
+  - Mean Absolute Percentage Error (MDAPE): 6.69 %
  
- ![](images/LSTM.PNG)
+ ![](images/LSTM_2.PNG)
  
 - We also have the best classic machine learning models in predicting the Ethereum price:
 
