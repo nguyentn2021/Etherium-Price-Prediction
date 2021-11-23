@@ -13,7 +13,7 @@
   - Mean Squared Error:  41526.171
   - Mean Absolute Percentage Error (MDAPE): 6.69 %
  
- ![](images/LSTM_2.PNG)
+ ![](images/LSTM.PNG)
  
 - We also have the best classic machine learning models in predicting the Ethereum price:
 
