@@ -11,7 +11,7 @@
   - R2 Score:  0.974
   - Mean Absolute Error:  136.216
   - Mean Squared Error:  41526.171
-  - Mean Absolute Percentage Error (MDAPE): 6.69 %
+  - Mean Absolute Percentage Error: 6.69 %
  
  ![](images/LSTM.PNG)
  
@@ -20,7 +20,7 @@
   - ElasticNet Regression with R2 score is 0.97
     - Mean Absolute Error: 142.19
     - Mean Squared Error: 45553.12
-    - Mean Absolute Percentage Error (MDAPE): 7.56 %
+    - Mean Absolute Percentage Error: 7.56 %
 
   ![](images/ElasticNet.PNG)
 
