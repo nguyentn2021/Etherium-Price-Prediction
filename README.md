@@ -27,7 +27,7 @@
   - Linear Regression with R2 score is 0.95
     - Mean Absolute Error: 196.17
     - Mean Squared Error: 74505.19
-    - Mean Absolute Percentage Error (MDAPE): 4.24 %
+    - Mean Absolute Percentage Error: 9.55 %
 
   ![](images/Linear.PNG)
   
