@@ -15,20 +15,12 @@
  
  ![](images/LSTM.PNG)
  
-- We also have the best classic machine learning models in predicting the Ethereum price:
-
-  - ElasticNet Regression with R2 score is 0.97
-    - Mean Absolute Error: 142.19
-    - Mean Squared Error: 45553.12
-    - Mean Absolute Percentage Error: 7.56 %
+- We also have a good ElasticNet Regression model in predicting the Ethereum price:
+  - R2 score is 0.97
+  - Mean Absolute Error: 142.19
+  - Mean Squared Error: 45553.12
+  - Mean Absolute Percentage Error: 7.56 %
 
   ![](images/ElasticNet.PNG)
-
-  - Linear Regression with R2 score is 0.95
-    - Mean Absolute Error: 196.17
-    - Mean Squared Error: 74505.19
-    - Mean Absolute Percentage Error: 9.55 %
-
-  ![](images/Linear.PNG)
   
 ### 4. Next Steps
