@@ -46,6 +46,13 @@ The full on-chain data of is downloaded from https://coinmetrics.io/. There are 
   - Mean Absolute Percentage Error: 7.56 %
 
   ![](images/ElasticNet.PNG)
-  
+
+### 4. Conclustion:
+- Both LSTM and Elastic Net Regression models give good results in testing data
+- Can choose any time steps we want to predict the Ether price
+- Challenges
+  - Sentiment data from social media.
+  - Manipulation
+ 
 ### 4. Next Steps
 Develop multi-steps multivariate models.
