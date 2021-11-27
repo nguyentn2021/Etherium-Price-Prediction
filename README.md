@@ -5,7 +5,7 @@
 
 Cryptocurrency has boomed in popularity over the past few years. While Bitcoin was the first and remains the best-known cryptocurrency, Ethereum may overtake Bitcoin as the most valuable cryptocurrency sometime in the future. 
 
-Predicting the price of a cryptocurrency is very difficult because, in general, the price is determined by numerous variables that change over time. A multivariate time series model takes several factors into account. In this project, I'll build multivariate time series models to predict Ethereum price based on blockchain information by using Recurrent Neural Network LSTM and comparing it with traditional ML algorithms. I also build models to predict whether the price is going to up or down.
+Predicting the price of a cryptocurrency is very difficult because, in general, the price is determined by numerous variables that change over time. A multivariate time series model takes several factors into account. In this project, I'll build multivariate time series models to predict Ethereum price based on blockchain information by using Recurrent Neural Network LSTM and comparing it with traditional ML algorithms. I also try to build models to predict whether the price is going to up or down.
 .
 ### 2. Dataset
 
