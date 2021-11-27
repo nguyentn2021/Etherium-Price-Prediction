@@ -6,6 +6,32 @@
 
 ### 2. Dataset
 
+# Data exploration
+
+The full on-chain data of is downloaded from https://coinmetrics.io/. There are hundreds of columns on the Ethereum on-chain data, I select the most below important features that have a huge impact on the Ether price. Their definitions are as follows:
+- PriceUSD: Ethereum Price
+- AdrActCnt: Number of active addresses
+- AdrBal1in100MCnt: Number of addresses with balances greater than 100M 
+- AdrBal1in10BCnt: Number of addresses with balances greater than 10B 
+- AdrBal1in10MCnt: Number of addresses with balances greater than 10M 
+- AdrBal1in1BCnt: Number of addresses with balances greater than 1B
+- AdrBal1in1MCnt: Number of addresses with balances greater than 1M
+- CapMrktCurUSD: Capitalization Market
+- DiffLast: Last difficulty
+- DiffMean: Mean difficulty
+- FeeMedUSD: Median transaction fees
+- FeeTotUSD: Total Fees
+- FlowInExUSD: Exchanges In-flow
+- FlowOutExUSD: Exchanges Out-flow
+- GasUsedTx: Gas used per transaction
+- GasUsedTxMean: Mean gas used per transaction
+- HashRate: Network hashrate (computing power)
+- RevHashNtv: Revenue per hash unit
+- RevHashRateUSD: Daily revenue per hash unit per second, USD
+- SplyAdrBalUSD1M: Supply in addresses with balances greater than $1M
+- TxCnt: Number of transactions
+- TxTfrValMedUSD: Median transactions transfer value
+
 ### 3. Evaluation
 - We have a very good result with the LSTM model in Ethereum price prediction
   - R2 Score:  0.974
