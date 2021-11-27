@@ -49,7 +49,7 @@ The full on-chain data of is downloaded from https://coinmetrics.io/. There are 
 
 ### 4. Conclustion:
 - Both LSTM and Elastic Net Regression models give good results in testing data
-- Can choose any time steps we want to predict the Ether price
+- Can choose any time steps and any crytocurrency we want to predict as long as we can get the full on-chain dataset.
 - Challenges
   - Sentiment data from social media.
   - Manipulation
