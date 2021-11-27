@@ -3,9 +3,9 @@
 
 ### 1. Project Overview
 
-Predicting the price of a financial asset is very difficult because in general, the price is determined by numerous variables that change over time. A multivariate time series model take several factors into account. Here I use various features on blockchain data to predict the Ether price.
+Predicting the price of a financial asset is very difficult because, in general, the price is determined by numerous variables that change over time. A multivariate time series model takes several factors into account. Here I use various features on blockchain data to predict the Ether price.
 
-In this project, I build some models to predict Ether price based on blockchain information by using Recurrent Neural Network LSTM and compare it with traditional ML algorithms.
+In this project, I build models to predict Ether price based on blockchain information by using Recurrent Neural Network LSTM and comparing it with traditional machine learning algorithms.
 
 ### 2. Dataset
 
