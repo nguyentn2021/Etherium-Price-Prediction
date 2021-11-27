@@ -6,8 +6,6 @@
 
 ### 2. Dataset
 
-# Data exploration
-
 The full on-chain data of is downloaded from https://coinmetrics.io/. There are hundreds of columns on the Ethereum on-chain data, I select the most below important features that have a huge impact on the Ether price. Their definitions are as follows:
 - PriceUSD: Ethereum Price
 - AdrActCnt: Number of active addresses
