@@ -58,4 +58,4 @@ The full on-chain data of is downloaded from https://coinmetrics.io/. There are 
   - Manipulation
  
 ### 5. Next Steps
-Develop multi-steps multivariate models.
+- Develop multi-steps multivariate models.
