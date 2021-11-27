@@ -1,5 +1,5 @@
 ## Ethereum Price Prediction based on blockchain information
-### This is my final Project at Lighthouse Labs - Data Science Bootcamp
+### This is my final project at Lighthouse Labs - Data Science Bootcamp
 
 ### 1. Project Overview
 
