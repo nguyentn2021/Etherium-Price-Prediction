@@ -55,7 +55,7 @@ The full on-chain data of is downloaded from https://coinmetrics.io/. There are 
 - Can choose any time steps and any crytocurrency we want to predict as long as we can get the full on-chain dataset.
 - Challenges
   - Sentiment data from social media.
-  - Manipulation
+  - Market Manipulation
  
 ### 5. Next Steps
 - Develop multi-steps multivariate models.
