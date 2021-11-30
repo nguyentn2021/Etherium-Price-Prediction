@@ -36,7 +36,7 @@ Even though there are hundreds of columns on the Ethereum on-chain data, some da
 
 ### 3. Model Evaluation
 #### 3.1 Deep Learning approach
-I developed two multivariate recurrent neural networks for time series prediction using Long Short-Term Memory (LSTM). The first model has two LSTM layers, which take our mini-batches as input and return 168 values. Next is a dense layer with 50 neurons and the final dense layer that outputs the predicted value. Model 2 is like Model 1 but includes three LSTM layers, followed by the Dropout function after each LSTM layer to reduce overfitting. In the model evaluation, I found that Model 1 performs better than Model 2.
+In the project, I developed two multivariate recurrent neural networks for time series prediction using Long Short-Term Memory (LSTM). The first model has two LSTM layers, which take our mini-batches as input and return 168 values. Next is a dense layer with 50 neurons and the final dense layer that outputs the predicted value. Model 2 is like Model 1 but includes three LSTM layers, followed by the Dropout function after each LSTM layer to reduce overfitting. In the model evaluation, I found that Model 1 performs better than Model 2.
 
 ##### Model 1 evaluation:
   - R2 Score:  0.974
