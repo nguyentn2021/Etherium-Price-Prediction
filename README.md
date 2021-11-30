@@ -42,10 +42,20 @@ Model 1 evaluation:
   - Mean Absolute Error:  136.216
   - Mean Squared Error:  41526.171
   - Mean Absolute Percentage Error: 6.69 %
+
+![](images/LSTM.PNG)
  
- ![](images/LSTM.PNG)
- 
-- We also have a good ElasticNet Regression model in predicting the Ethereum price:
+Model 1 evaluation: 
+- R2 Score:  0.78
+- Mean Absolute Error:  289.18
+- Mean Squared Error:  136397.69
+- Mean Absolute Percentage Error: 8.57 %
+
+![](images/LSTM_2.PNG)
+
+Next, I try to use regular ML models to predict the price. First, I must reframe our multivariate time-series data into a supervised learning problem with timesteps = 7, then I train data on difference ML models.
+
+We also have a good ElasticNet Regression model in predicting the Ethereum price:
   - R2 score is 0.97
   - Mean Absolute Error: 142.19
   - Mean Squared Error: 45553.12
