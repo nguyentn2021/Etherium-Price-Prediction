@@ -9,7 +9,7 @@ Predicting the price of a cryptocurrency is very difficult because, in general, 
 
 ### 2. Dataset
 
-The full on-chain data of is downloaded from https://coinmetrics.io/. There are hundreds of columns on the Ethereum on-chain data, I select the most below important features that have a huge impact on the Ether price. Their definitions are as follows:
+The on-chain data is downloaded from https://coinmetrics.io/. There are hundreds of columns on the Ethereum on-chain data, I select the most below important features that have a huge impact on the Ether price. Their definitions are as follows:
 - PriceUSD: Ethereum Price
 - AdrActCnt: Number of active addresses
 - AdrBal1in100MCnt: Number of addresses with balances greater than 100M 
