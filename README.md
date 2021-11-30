@@ -35,6 +35,7 @@ Even though there are hundreds of columns on the Ethereum on-chain data, some da
 - TxTfrValMedUSD: Median transactions transfer value
 
 ### 3. Model Evaluation
+#### 3.1 Deep Learning approach
 I developed two multivariate recurrent neural networks for time series prediction using Long Short-Term Memory (LSTM). The first model has two LSTM layers, which take our mini-batches as input and return 168 values. Next is a dense layer with 50 neurons and the final dense layer that outputs the predicted value. Model 2 is like Model 1 but includes three LSTM layers, followed by the Dropout function after each LSTM layer to reduce overfitting. In the model evaluation, I found that Model 1 performs better than Model 2.
 
 Model 1 evaluation:
@@ -51,7 +52,8 @@ Model 2 evaluation:
 - Mean Absolute Percentage Error: 8.57 %
 ![](images/LSTM_2.PNG)
 
-Next, I try to use regular ML models to predict the price. First, I reframed our multivariate time-series data into a supervised learning problem, then I train data on difference machine learning models.
+#### 3.2 Predict Ether price using traditional machine learning algorithms
+I try to use regular ML models to predict the price. First, I reframed our multivariate time-series data into a supervised learning problem, then I train data on difference machine learning models.
 
 I also have a good ElasticNet Regression model in predicting the Ethereum price:
   - R2 score is 0.97
