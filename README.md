@@ -64,7 +64,7 @@ I have an excellent ElasticNet Regression model in predicting the Ethereum price
   ![](images/ElasticNet.PNG)
 
 ### 4. Conclustion:
-Both LSTM and Elastic Net Regression models can predict Ethereum price very well on testing data, with the R2 score is up to 0.97.
+Both LSTM and Elastic Net Regression models can predict Ethereum price very well on testing data, with the R2 score is up to 0.96.
 The methods used in this project can be used to predict any cryptocurrency with any time steps as long as the on-chain data is available.
 
 However, some challenges remain as stated in the following:
