@@ -53,7 +53,7 @@ In the project, I developed two multivariate recurrent neural networks for time 
 ![](images/LSTM_2.PNG)
 
 #### 3.2 Predict Ether price using traditional machine learning algorithms
-To use regular machine learning models to predict Ether price, I reframed the multivariate time-series data into a supervised learning problem, then trained data on different machine learning models.
+To use traditional machine learning models to predict Ether price, I reframed the multivariate time-series data into a supervised learning problem, then trained data on different machine learning models.
 
 I have an excellent ElasticNet Regression model in predicting the Ethereum price:
   - R2 score is 0.97
