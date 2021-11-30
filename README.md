@@ -34,8 +34,10 @@ Even though there are hundreds of columns on the Ethereum on-chain data, some da
 - TxCnt: Number of transactions
 - TxTfrValMedUSD: Median transactions transfer value
 
-### 3. Evaluation
-- We have a very good result with the LSTM model in Ethereum price prediction
+### 3. Model Evaluation
+I developed two multivariate recurrent neural networks for time series prediction using Long Short-Term Memory (LSTM). The first includes 2 LSTM models, which take our mini-batches as input and return 168 values. Next is a dense layer with 50 neurons and the final dense layer that outputs the predicted value. Model 2 is like Model 1 but includes 3 LSTM layers, followed by the Dropout function after each LSTM layer to reduce overfitting. In the model evaluation, I found that Model 1 performs better than Model 2.
+
+LSTM Model 1 evaluation in Ethereum price prediction:
   - R2 Score:  0.974
   - Mean Absolute Error:  136.216
   - Mean Squared Error:  41526.171
