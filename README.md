@@ -3,9 +3,9 @@
 
 ### 1. Project Overview
 
-Cryptocurrency has boomed in popularity over the past few years. While Bitcoin was the first and remains the best-known cryptocurrency, Ethereum may overtake Bitcoin as the most valuable cryptocurrency sometime in the future. 
+Cryptocurrency has boomed in popularity over the past few years. Bitcoin was the first and remains the best-known cryptocurrency, while Ethereum is now the most adopted token and the fastest growing among hundreds of blockchains. Ethereum may overtake Bitcoin as the most valuable cryptocurrency sometime in the future. 
 
-Predicting the price of a cryptocurrency is very difficult because, in general, the price is determined by numerous variables that change over time. A multivariate time series model takes several factors into account. In this project, I'll build multivariate time series models to predict Ethereum price based on data on blockchain (on-chain data) by using Recurrent Neural Network Long Short Term Memory (LSTM) and comparing it with traditional nachine learning algorithms. I also build models to predict whether the price is going up or down.
+Predicting the price of a cryptocurrency is very difficult because, in general, the price is determined by numerous variables that change over time. A multivariate time series model takes several factors into account. This project will build multivariate time series models to predict Ethereum price based on data on the blockchain (on-chain data) by using Recurrent Neural Network Long Short Term Memory (LSTM) and comparing it with traditional machine learning algorithms. Models to predict the price trend also will be presented in this project.
 
 ### 2. Dataset
 
