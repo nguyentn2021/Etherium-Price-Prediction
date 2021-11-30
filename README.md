@@ -53,7 +53,7 @@ Model 2 evaluation:
 ![](images/LSTM_2.PNG)
 
 #### 3.2 Predict Ether price using traditional machine learning algorithms
-I try to use regular ML models to predict the price. First, I reframed our multivariate time-series data into a supervised learning problem, then I train data on difference machine learning models.
+To use regular ML models to predict the price, I reframed the multivariate time-series data into a supervised learning problem, then train data on difference machine learning models.
 
 I also have a good ElasticNet Regression model in predicting the Ethereum price:
   - R2 score is 0.97
