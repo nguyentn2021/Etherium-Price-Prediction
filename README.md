@@ -38,14 +38,14 @@ Even though there are hundreds of columns on the Ethereum on-chain data, some da
 #### 3.1 Deep Learning approach
 I developed two multivariate recurrent neural networks for time series prediction using Long Short-Term Memory (LSTM). The first model has two LSTM layers, which take our mini-batches as input and return 168 values. Next is a dense layer with 50 neurons and the final dense layer that outputs the predicted value. Model 2 is like Model 1 but includes three LSTM layers, followed by the Dropout function after each LSTM layer to reduce overfitting. In the model evaluation, I found that Model 1 performs better than Model 2.
 
-Model 1 evaluation:
+##### Model 1 evaluation:
   - R2 Score:  0.974
   - Mean Absolute Error:  136.216
   - Mean Squared Error:  41526.171
   - Mean Absolute Percentage Error: 6.69 %
 ![](images/LSTM.PNG)
  
-Model 2 evaluation: 
+##### Model 2 evaluation: 
 - R2 Score:  0.78
 - Mean Absolute Error:  289.18
 - Mean Squared Error:  136397.69
@@ -72,4 +72,4 @@ However, some challenges remain as stated in the following:
 - Like any legacy market, manipulation is always a huge "black swan" factor contributing to asset price and value which again could not be predicted.
  
 ### 5. Next Steps
-In the future, I want to develop multi-step multivariate models to predict multiple time steps.
+As explained throughout this project, the proposed models only offer a sole step price prediction that predicts the next-day price. The improvement for this project is to develop multivariate models to predict multiple time steps.
