@@ -42,15 +42,13 @@ Model 1 evaluation:
   - Mean Absolute Error:  136.216
   - Mean Squared Error:  41526.171
   - Mean Absolute Percentage Error: 6.69 %
-
 ![](images/LSTM.PNG)
  
-Model 1 evaluation: 
+Model 2 evaluation: 
 - R2 Score:  0.78
 - Mean Absolute Error:  289.18
 - Mean Squared Error:  136397.69
 - Mean Absolute Percentage Error: 8.57 %
-
 ![](images/LSTM_2.PNG)
 
 Next, I try to use regular ML models to predict the price. First, I must reframe our multivariate time-series data into a supervised learning problem with timesteps = 7, then I train data on difference ML models.
